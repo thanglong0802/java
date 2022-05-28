@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45c3319b-e18d-497a-9d0e-6a5b7c955ee4" name="Default Changelist" comment="" />
+    <list default="true" id="45c3319b-e18d-497a-9d0e-6a5b7c955ee4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day3/src/entity/GiangVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/entity/GiangVienMonHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/entity/MonHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/entity/Nguoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/entity/QuanLy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/itf/ThongTin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/polymorphismAbstraction/Lecturers.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -19,14 +31,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="29dnSKrKlDcbgp8cCSFNrLv5fxp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day2/itsol" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -41,6 +57,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="day3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +89,8 @@
       <updated>1653451828448</updated>
       <workItem from="1653451829698" duration="917000" />
       <workItem from="1653460710042" duration="6711000" />
+      <workItem from="1653719379448" duration="11140000" />
+      <workItem from="1653746188368" duration="8871000" />
     </task>
     <servers />
   </component>
