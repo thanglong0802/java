@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c3319b-e18d-497a-9d0e-6a5b7c955ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day3/src/entity/GiangVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/entity/GiangVienMonHoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/entity/MonHoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/entity/Nguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/entity/QuanLy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/itf/ThongTin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/src/polymorphismAbstraction/Lecturers.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/logichandle/MainMenu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +81,7 @@
       <workItem from="1653451829698" duration="917000" />
       <workItem from="1653460710042" duration="6711000" />
       <workItem from="1653719379448" duration="11140000" />
-      <workItem from="1653746188368" duration="8871000" />
+      <workItem from="1653746188368" duration="9058000" />
     </task>
     <servers />
   </component>
