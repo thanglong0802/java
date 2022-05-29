@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c3319b-e18d-497a-9d0e-6a5b7c955ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day3/src/logichandle/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/logichandle/ChucNang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/entity/GiangVienMonHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/entity/GiangVienMonHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/entity/Nguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/entity/Nguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/entity/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/entity/QuanLy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/logichandle/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/logichandle/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +87,9 @@
       <workItem from="1653451829698" duration="917000" />
       <workItem from="1653460710042" duration="6711000" />
       <workItem from="1653719379448" duration="11140000" />
-      <workItem from="1653746188368" duration="9058000" />
+      <workItem from="1653746188368" duration="9141000" />
+      <workItem from="1653756747649" duration="183000" />
+      <workItem from="1653834637117" duration="6788000" />
     </task>
     <servers />
   </component>

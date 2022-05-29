@@ -8,14 +8,14 @@ public abstract class Nguoi extends QuanLy implements ThongTin {
 
     private String tenGV, diaChi, soDienThoai;
 
-    public Nguoi(String tenGV, String diaChi, String soDienThoai) {
-        this.tenGV = tenGV;
-        this.diaChi = diaChi;
-        this.soDienThoai = soDienThoai;
-    }
+//    public Nguoi(String tenGV, String diaChi, String soDienThoai) {
+//        this.tenGV = tenGV;
+//        this.diaChi = diaChi;
+//        this.soDienThoai = soDienThoai;
+//    }
 
-    public Nguoi() {
-    }
+//    public Nguoi() {
+//    }
 
     @Override
     public void nhapThongTin() {

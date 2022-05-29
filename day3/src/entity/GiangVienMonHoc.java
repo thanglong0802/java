@@ -5,14 +5,16 @@ import itf.ThongTin;
 import java.util.Scanner;
 
 public class GiangVienMonHoc implements ThongTin {
+    private GiangVien giangVien;
     private MonHoc monHoc;
     private int soLuongLop;
 
-    public GiangVienMonHoc(MonHoc monHoc, int soLuongLop) {
-        this.monHoc = monHoc;
-        this.soLuongLop = soLuongLop;
+    public GiangVien getGiangVien() {
+        return giangVien;
     }
-
+    public void setGiangVien(GiangVien giangVien) {
+        this.giangVien = giangVien;
+    }
     public MonHoc getMonHoc() {
         return monHoc;
     }
