@@ -41,7 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,20 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bai7">
-    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringhandling.Bai3" />
-      <module name="day4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stringhandling.Bai4" />
       <module name="day4" />
@@ -121,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pointmanagement.main.Main" />
+      <module name="day5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pointmanagement.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Bai7" />
         <item itemvalue="Application.Bai6" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai4" />
-        <item itemvalue="Application.Bai3" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +152,7 @@
       <workItem from="1653882874942" duration="6645000" />
       <workItem from="1653972413042" duration="1022000" />
       <workItem from="1654014358092" duration="5012000" />
+      <workItem from="1654067046899" duration="1987000" />
     </task>
     <servers />
   </component>
