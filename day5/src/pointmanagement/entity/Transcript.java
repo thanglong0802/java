@@ -1,9 +1,22 @@
 package pointmanagement.entity;
 
+import java.util.Scanner;
+
 public class Transcript {
     private Student student;
     private Subject subject[];
     private double testScore;
+
+    public void inputTranscript() {
+        System.out.println("Nhập điểm kết quả thi: ");
+        this.testScore = Double.parseDouble(new Scanner(System.in).nextLine());
+    }
+
+    public String showTranscript() {
+        StringBuilder builder = new StringBuilder();
+
+        return builder.toString();
+    }
 
     public Student getStudent() {
         return student;
