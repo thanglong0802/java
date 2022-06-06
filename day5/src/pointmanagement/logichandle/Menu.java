@@ -24,11 +24,11 @@ public class Menu {
                     System.out.print("Chọn: ");
                     int choice = Person.enterNumber();
                     if (choice == 1) {
-                        Function.inputStudent();
+                        Service.inputStudent();
                         break;
                     } else if (choice == 2) {
                         System.out.println("Danh sách các sinh viên: ");
-                        Function.showStudent();
+                        Service.showStudent();
                         break;
                     } else {
                         System.out.println("Nhập lại!");
@@ -42,17 +42,17 @@ public class Menu {
                     System.out.print("Chọn: ");
                     int choice = Person.enterNumber();
                     if (choice == 1) {
-                        Function.inputSub();
+                        Service.inputSub();
                         break;
                     } else if (choice == 2) {
-                        Function.showSub();
+                        Service.showSub();
                         break;
                     } else {
                         System.out.println("Nhập lại!");
                     }
                 }
             } else if (choiceMenu == 3) {
-
+                GPAService.inputGPA();
             } else if (choiceMenu == 4) {
 
             } else if (choiceMenu == 5) {

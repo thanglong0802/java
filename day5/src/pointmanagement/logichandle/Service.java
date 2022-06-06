@@ -4,16 +4,17 @@ import pointmanagement.entity.Person;
 import pointmanagement.entity.Student;
 import pointmanagement.entity.Subject;
 
-public class Function {
-    public static Person STUDENT[] = new Student[20];
+public class Service {
+    public static Student STUDENT[] = new Student[20];
     public static Subject SUBJECT[] = new Subject[20];
     public static int INDEX = 0;
 
     public static int indexStu = 0;
     public static int indexSub = 0;
+
     // nhập sinh viên
     public static void inputStudent() {
-        Person student = new Student();
+        Student student = new Student();
         student.inputPersonInfo();
         STUDENT[indexStu++] = student;
         System.out.println("Nhập thành công");
