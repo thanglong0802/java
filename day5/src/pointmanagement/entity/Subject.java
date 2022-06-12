@@ -1,10 +1,12 @@
 package pointmanagement.entity;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Subject extends Transcript {
-    private int id;
-    private String nameSub, unitNumber, typeSub;
+public class Subject implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private int id, unitNumber;
+    private String nameSub, typeSub;
 
     private static int AUTO_ID = -1;
 
@@ -25,7 +27,7 @@ public class Subject extends Transcript {
         System.out.println("Nhập tên môn học: ");
         this.nameSub = new Scanner(System.in).nextLine();
         System.out.println("Nhập số đơn vị học trình: ");
-        this.unitNumber = new Scanner(System.in).nextLine();
+        this.unitNumber = Integer.parseInt(new Scanner(System.in).nextLine());
         System.out.println("Nhập loại môn học: ");
         while (true) {
             System.out.println("1. Đại cương");
@@ -72,11 +74,11 @@ public class Subject extends Transcript {
         this.nameSub = nameSub;
     }
 
-    public String getUnitNumber() {
+    public int getUnitNumber() {
         return unitNumber;
     }
 
-    public void setUnitNumber(String unitNumber) {
+    public void setUnitNumber(int unitNumber) {
         this.unitNumber = unitNumber;
     }
 

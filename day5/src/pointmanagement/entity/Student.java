@@ -1,6 +1,9 @@
 package pointmanagement.entity;
 
-public class Student extends Person {
+import java.io.Serializable;
+
+public class Student extends Person implements Serializable {
+    private static final long serialVersionUID = 1L;
     private int id;
 
     private static int AUTO_ID = -1;
@@ -21,7 +24,8 @@ public class Student extends Person {
 
     @Override
     public String showPersonInfo() {
-        return "Mã sinh viên: " + getId() + super.showPersonInfo();
+        return "Mã sinh viên: " + getId() +
+                super.showPersonInfo();
     }
 
     public int getId() {

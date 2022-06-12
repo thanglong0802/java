@@ -1,55 +1,42 @@
 package pointmanagement.entity;
 
-import java.util.Scanner;
+import java.io.Serializable;
+import java.util.Arrays;
 
-public class Transcript {
-//    private Student student;
-    private Subject subject;
-    private double testScore;
+public class Transcript implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private Student student;
+    private TranscriptDetails transcript[];
 
-    public Transcript(Subject subject, double testScore) {
-        this.subject = subject;
-        this.testScore = testScore;
+    public Transcript(Student student, TranscriptDetails[] transcript) {
+        this.student = student;
+        this.transcript = transcript;
     }
 
     public Transcript() {
-
     }
 
-    public void inputTranscript() {
-        do {
-            System.out.println("Nhập điểm kết quả thi: ");
-            this.testScore = Double.parseDouble(new Scanner(System.in).nextLine());
-        } while (testScore > 0 && testScore <= 10);
+    @Override
+    public String toString() {
+        return "TranscriptDetails{" +
+                "student=" + student +
+                ", transcript=" + Arrays.toString(transcript) +
+                '}';
     }
 
-    public String showTranscript() {
-        StringBuilder builder = new StringBuilder();
-        builder.append(", điểm thi: ").append(getTestScore());
-        return builder.toString();
+    public Student getStudent() {
+        return student;
     }
 
-//    public Student getStudent() {
-//        return student;
-//    }
-//
-//    public void setStudent(Student student) {
-//        this.student = student;
-//    }
-
-    public Subject getSubject() {
-        return subject;
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
-    public void setSubject(Subject subject) {
-        this.subject = subject;
+    public TranscriptDetails[] getTranscript() {
+        return transcript;
     }
 
-    public double getTestScore() {
-        return testScore;
-    }
-
-    public void setTestScore(double testScore) {
-        this.testScore = testScore;
+    public void setTranscript(TranscriptDetails[] transcript) {
+        this.transcript = transcript;
     }
 }

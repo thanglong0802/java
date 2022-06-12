@@ -1,8 +1,10 @@
 package pointmanagement.entity;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Person extends Transcript {
+public class Person extends TranscriptDetails implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String fullName, address, phoneNumber, classes;
 
     public void inputPersonInfo() {
