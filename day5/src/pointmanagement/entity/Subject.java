@@ -49,13 +49,14 @@ public class Subject implements Serializable {
         }
     }
 
-    public String showSubInfo() {
-        StringBuilder builder = new StringBuilder();
-        builder.append("Mã môn học: ").append(getId()).
-                append(", tên môn học: ").append(getNameSub()).
-                append(", số đơn vị học trình: ").append(getUnitNumber()).
-                append(", loại môn học: ").append(getTypeSub());
-        return builder.toString();
+    @Override
+    public String toString() {
+        return "Subject{" +
+                "id=" + id +
+                ", unitNumber=" + unitNumber +
+                ", nameSub='" + nameSub + '\'' +
+                ", typeSub='" + typeSub + '\'' +
+                '}';
     }
 
     public int getId() {

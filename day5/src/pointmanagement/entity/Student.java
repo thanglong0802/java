@@ -23,9 +23,10 @@ public class Student extends Person implements Serializable {
     }
 
     @Override
-    public String showPersonInfo() {
-        return "Mã sinh viên: " + getId() +
-                super.showPersonInfo();
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                '}';
     }
 
     public int getId() {

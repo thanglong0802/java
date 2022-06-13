@@ -1,7 +1,9 @@
 package pointmanagement.logichandle;
 
+import pointmanagement.entity.Student;
 import pointmanagement.entity.Transcript;
 import pointmanagement.entity.TranscriptDetails;
+import pointmanagement.file.FileUtil;
 import pointmanagement.main.Main;
 
 import java.util.Scanner;
@@ -44,13 +46,14 @@ public class GPAService {
         } while (true);
 
         TranscriptDetails transcript[] = new TranscriptDetails[n];
+        int subjectID;
         for (int i = 0; i < n; i++) {
             System.out.println("Nhập mã môn học thứ " + (i + 1) + " : "); // ???
-            int subjectID;
+
             do {
                 try {
                     subjectID = Integer.parseInt(new Scanner(System.in).nextLine());
-                    if (SubjectService.searchSubjectByID(subjectID) != null && checkSameSubject(transcript, subjectID)) {
+                    if (SubjectService.searchSubjectByID(subjectID) != null && !checkSameSubject(transcript, subjectID)) {
                         break;
                     } else {
                         System.out.println("Mã môn học không tồn tại hoặc đã bị trùng \n Nhập lại: ");
@@ -85,6 +88,7 @@ public class GPAService {
                 break;
             }
         }
+        FileUtil.wirteFile(Main.GPA, "gpa.dat");
 
     }
 
@@ -118,19 +122,20 @@ public class GPAService {
     public static boolean checkSameSubject(TranscriptDetails transcript[], int id) {
         for (int i = 0; i < transcript.length; i++) {
             if (transcript[i] != null) {
-                if (transcript[i].getSubject().getId() != id) {
-                    return false;
+                if (transcript[i].getSubject().getId() == id) {
+                    return true;
                 }
             }
         }
-        return true;
+        return false;
     }
 
     public static void showAllGPA() {
         for (int i = 0; i < Main.GPA.length; i++) {
-            if (Main.GPA[i] != null) {
-                System.out.println(Main.GPA[i]);
+            if (Main.GPA[i] == null) {
+                continue;
             }
+            System.out.println(Main.GPA[i]);
         }
     }
 
@@ -163,7 +168,7 @@ public class GPAService {
                     score += (Main.GPA[i].getTranscript()[j].getScore() * Main.GPA[i].getTranscript()[j].getSubject().getUnitNumber());
 
                 }
-                System.out.println("Sinh viên " + Main.GPA[i].getStudent().getFullName() + " có GPA là: " + ((double)score/unit));
+                System.out.println("Sinh viên " + Main.GPA[i].getStudent().getFullName() + " có GPA là: " + ((double) score / unit));
             }
         }
     }

@@ -1,6 +1,7 @@
 package pointmanagement.logichandle;
 
 import pointmanagement.entity.Subject;
+import pointmanagement.file.FileUtil;
 
 import java.util.Scanner;
 
@@ -23,6 +24,7 @@ public class SubjectService {
             Subject subject = new Subject();
             subject.inputSubInfo();
             saveSubject(subject);
+            FileUtil.wirteFile(SUBJECT, "subject.dat");
         }
         System.out.println("Nhập thành công");
     }
@@ -32,7 +34,7 @@ public class SubjectService {
             if (SUBJECT[i] == null) {
                 continue;
             }
-            System.out.println(SUBJECT[i].showSubInfo());
+            System.out.println(SUBJECT[i]);
         }
     }
 

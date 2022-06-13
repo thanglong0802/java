@@ -1,6 +1,7 @@
 package pointmanagement.logichandle;
 
 import pointmanagement.entity.Student;
+import pointmanagement.file.FileUtil;
 
 import java.util.Scanner;
 
@@ -23,6 +24,7 @@ public class StudentService {
             Student student = new Student();
             student.inputPersonInfo();
             saveStudent(student);
+            FileUtil.wirteFile(STUDENT, "student.dat");
         }
         System.out.println("Nhập thành công");
     }
@@ -32,7 +34,7 @@ public class StudentService {
             if (STUDENT[i] == null) {
                 continue;
             }
-            System.out.println(STUDENT[i].showPersonInfo());
+            System.out.println(STUDENT[i]);
         }
     }
 

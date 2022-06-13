@@ -29,11 +29,11 @@ public class Main {
                     System.out.println("2. Hiển thị danh sách sinh viên");
                     System.out.println("=======================================================================");
                     System.out.print("Chọn: ");
-                    int choice = Person.enterNumber();
-                    if (choice == 1) {
+                    int choice1 = Person.enterNumber();
+                    if (choice1 == 1) {
                         StudentService.inputStudent();
                         break;
-                    } else if (choice == 2) {
+                    } else if (choice1 == 2) {
                         System.out.println("Danh sách các sinh viên: ");
                         StudentService.showStudent();
                         break;
@@ -47,11 +47,11 @@ public class Main {
                     System.out.println("2. Hiển thị danh sách môn học");
                     System.out.println("=======================================================================");
                     System.out.print("Chọn: ");
-                    int choice = Person.enterNumber();
-                    if (choice == 1) {
+                    int choice2 = Person.enterNumber();
+                    if (choice2 == 1) {
                         SubjectService.inputSubject();
                         break;
-                    } else if (choice == 2) {
+                    } else if (choice2 == 2) {
                         SubjectService.showSubject();
                         break;
                     } else {
@@ -59,29 +59,33 @@ public class Main {
                     }
                 }
             } else if (choiceMenu == 3) {
-                GPAService.inputGPA();
-                GPAService.showAllGPA();
-                break;
+                while (true) {
+                    GPAService.inputGPA();
+                    GPAService.showAllGPA();
+                    break;
+                }
             } else if (choiceMenu == 4) {
                 while (true) {
                     System.out.println("1. Theo họ tên sinh viên");
                     System.out.println("2. Theo tên môn học");
                     System.out.println("=======================================================================");
                     System.out.print("Chọn: ");
-                    int choice = Person.enterNumber();
-                    if (choice == 1) {
+                    int choice3 = Person.enterNumber();
+                    if (choice3 == 1) {
                         GPAService.sortGPAByName();
                         GPAService.showAllGPA();
                         break;
-                    } else if (choice == 2) {
+                    } else if (choice3 == 2) {
                         break;
                     } else {
                         System.out.println("Nhập lại!");
                     }
                 }
             } else if (choiceMenu == 5) {
-                GPAService.calculateGPA();
-                break;
+                while (true) {
+                    GPAService.calculateGPA();
+                    break;
+                }
             }
         }
         System.out.println("Kết thúc chương trình");

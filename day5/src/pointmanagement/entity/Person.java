@@ -18,13 +18,14 @@ public class Person extends TranscriptDetails implements Serializable {
         this.classes = new Scanner(System.in).nextLine();
     }
 
-    public String showPersonInfo() {
-        StringBuilder builder = new StringBuilder();
-        builder.append(", họ tên: ").append(getFullName()).
-                append(", địa chỉ: ").append(getAddress()).
-                append(", số điện thoại: ").append(getPhoneNumber()).
-                append(", lớp học: ").append(getClasses());
-        return builder.toString();
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", address='" + address + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", classes='" + classes + '\'' +
+                '}';
     }
 
     public static int enterNumber() {
