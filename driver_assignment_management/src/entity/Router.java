@@ -1,7 +1,5 @@
 package entity;
 
-import java.util.Scanner;
-
 public class Router extends Roster implements inputITF{
     private int id;
     private float distance;
@@ -21,9 +19,9 @@ public class Router extends Roster implements inputITF{
     @Override
     public void inputInfo() {
         System.out.println("Nhập khoảng cách: ");
-        this.distance = Float.parseFloat(new Scanner(System.in).nextLine());
+        this.distance = nhapFloat();
         System.out.println("Nhập số điểm dừng: ");
-        this.stopPoint = Integer.parseInt(new Scanner(System.in).nextLine());
+        this.stopPoint = nhapInt();
     }
 
     @Override

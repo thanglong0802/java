@@ -27,7 +27,7 @@ public class Driver extends Roster implements inputITF {
         System.out.println("Nhập địa chỉ: ");
         this.address = new Scanner(System.in).nextLine();
         System.out.println("Nhập số điện thoại: ");
-        this.phoneNumber = checkNumber();
+        this.phoneNumber = nhapInt();
         System.out.println("Nhập trình độ: \n" +
                 "1. A \n" +
                 "2. B \n" +
@@ -76,17 +76,6 @@ public class Driver extends Roster implements inputITF {
                 ", phoneNumber=" + phoneNumber +
                 ", level=" + level +
                 '}';
-    }
-
-    public int checkNumber() {
-        int result = 0;
-        try {
-            result = Integer.parseInt(new Scanner(System.in).nextLine());
-        } catch (NumberFormatException e) {
-            System.out.println("Không thể nhập chữ, xin mời nhập số: ");
-            checkNumber();
-        }
-        return result;
     }
 
     public int getId() {
