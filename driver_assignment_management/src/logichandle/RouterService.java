@@ -40,4 +40,16 @@ public class RouterService {
             }
         }
     }
+
+    public static Router searchRouterByID(int id) {
+        for (int i = 0; i < ROUTER.size(); i++) {
+            if (ROUTER.get(i) != null) {
+                if (ROUTER.get(i).getId() == id) {
+                    return ROUTER.get(i);
+                }
+            }
+        }
+        return null;
+    }
+
 }

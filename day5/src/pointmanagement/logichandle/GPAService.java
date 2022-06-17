@@ -1,6 +1,5 @@
 package pointmanagement.logichandle;
 
-import pointmanagement.entity.Student;
 import pointmanagement.entity.Transcript;
 import pointmanagement.entity.TranscriptDetails;
 import pointmanagement.file.FileUtil;
@@ -48,8 +47,7 @@ public class GPAService {
         TranscriptDetails transcript[] = new TranscriptDetails[n];
         int subjectID;
         for (int i = 0; i < n; i++) {
-            System.out.println("Nhập mã môn học thứ " + (i + 1) + " : "); // ???
-
+            System.out.println("Nhập mã môn học thứ " + (i + 1) + " : ");
             do {
                 try {
                     subjectID = Integer.parseInt(new Scanner(System.in).nextLine());

@@ -7,6 +7,15 @@ public class Roster {
     private Driver driver;
     private List<RosterDetails> details;
 
+    public Roster(Driver driver, List<RosterDetails> details) {
+        this.driver = driver;
+        this.details = details;
+    }
+
+    public Roster() {
+
+    }
+
     @Override
     public String toString() {
         return "Roster{" +
@@ -16,7 +25,7 @@ public class Roster {
     }
 
     public static int nhapInt() {
-        int result = 0;
+        int result = -1;
         try {
             result = Integer.parseInt(new Scanner(System.in).nextLine());
         } catch (NumberFormatException e) {
@@ -27,7 +36,7 @@ public class Roster {
     }
 
     public static float nhapFloat() {
-        float result = 0;
+        float result = -1;
         try {
             result = Float.parseFloat(new Scanner(System.in).nextLine());
         } catch (NumberFormatException e) {

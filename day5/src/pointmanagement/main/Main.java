@@ -91,40 +91,4 @@ public class Main {
         System.out.println("Kết thúc chương trình");
     }
 
-//    public static void initializeData() {
-//        Object studentFile = FileUtil.readDate(FILE);
-//        if (DataUtils.isNull(studentFile)) {
-//            StudentService.STUDENT = new Student[50];
-//        } else {
-//            StudentService.STUDENT = (Student[]) studentFile;
-//            for (int i = 0; i < StudentService.STUDENT.length; i++) {
-//                if (StudentService.STUDENT[i] == null) {
-//                    break;
-//                } else {
-//                    students[i].setId(i);
-//                }
-//            }
-//        }
-//
-//        Object subjectFile = FileUtil.readDate(SubjectService.FILE);
-//        if (DataUtils.isNull(subjectFile)) {
-//            SubjectService.SUBJECT = new Subject[50];
-//        } else {
-//            SubjectService.SUBJECT = (Subject[]) subjectFile;
-//            for (int i = 0; i < SubjectService.SUBJECT.length; i++) {
-//                if (SubjectService.SUBJECT[i] == null)
-//                    break;
-//                else {
-//                    SubjectService.SUBJECT[i].setId(i);
-//                }
-//            }
-//        }
-//        Object gpaFile = FileUtil.readDate(GPAService.FILE);
-//        if (DataUtils.isNull(gpaFile)) {
-//            Main.gpa = new Transcript[100];
-//        } else {
-//            Main.gpa = (Transcript[]) gpaFile;
-//        }
-//    }
-
 }

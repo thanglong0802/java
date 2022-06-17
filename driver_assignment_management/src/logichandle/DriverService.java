@@ -42,4 +42,15 @@ public class DriverService {
             System.out.println(DRIVER.get(i));
         }
     }
+
+    public static Driver searchDriverByID(int id) {
+        for (int i = 0; i < DRIVER.size(); i++) {
+            if (DRIVER.get(i) != null) {
+                if (DRIVER.get(i).getId() == id) {
+                    return DRIVER.get(i);
+                }
+            }
+        }
+        return null;
+    }
 }

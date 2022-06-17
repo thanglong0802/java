@@ -1,6 +1,8 @@
 package entity;
 
-public class Router extends Roster implements inputITF{
+import itf.InputITF;
+
+public class Router extends Roster implements InputITF {
     private int id;
     private float distance;
     private int stopPoint;

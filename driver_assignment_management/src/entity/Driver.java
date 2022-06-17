@@ -1,8 +1,10 @@
 package entity;
 
+import itf.InputITF;
+
 import java.util.Scanner;
 
-public class Driver extends Roster implements inputITF {
+public class Driver extends Roster implements InputITF {
     private int id;
     private String fullName;
     private String address;
