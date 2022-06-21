@@ -1,6 +1,8 @@
 package entity;
 
-public class RosterDetails {
+import java.io.Serializable;
+
+public class RosterDetails implements Serializable {
     private Router router;
     private int turns;
 

@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,9 +38,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/download/download_16082021/ojdbc8.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
@@ -163,7 +163,12 @@
       <workItem from="1655178485494" duration="9313000" />
       <workItem from="1655260656179" duration="5991000" />
       <workItem from="1655344521297" duration="16338000" />
-      <workItem from="1655431416752" duration="3189000" />
+      <workItem from="1655431416752" duration="4961000" />
+      <workItem from="1655448384133" duration="1717000" />
+      <workItem from="1655452316548" duration="57000" />
+      <workItem from="1655452749269" duration="22000" />
+      <workItem from="1655455766869" duration="7000" />
+      <workItem from="1655455880360" duration="2788000" />
     </task>
     <servers />
   </component>

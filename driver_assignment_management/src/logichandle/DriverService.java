@@ -1,8 +1,10 @@
 package logichandle;
 
 import entity.Driver;
+import file.FileUtil;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,6 +31,7 @@ public class DriverService {
             Driver driver = new Driver();
             driver.inputInfo();
             DRIVER.add(driver);
+            FileUtil.writeFile(Collections.singletonList(DRIVER), "driver_assignment_management/src/file/driver.dat");
         }
         System.out.println("Thêm thành công");
 

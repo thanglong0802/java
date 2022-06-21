@@ -2,9 +2,10 @@ package entity;
 
 import itf.InputITF;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Driver extends Roster implements InputITF {
+public class Driver extends Roster implements Serializable, InputITF {
     private int id;
     private String fullName;
     private String address;

@@ -2,7 +2,9 @@ package entity;
 
 import itf.InputITF;
 
-public class Router extends Roster implements InputITF {
+import java.io.Serializable;
+
+public class Router extends Roster implements Serializable, InputITF {
     private int id;
     private float distance;
     private int stopPoint;

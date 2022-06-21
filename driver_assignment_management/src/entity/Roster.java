@@ -1,9 +1,10 @@
 package entity;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Scanner;
 
-public class Roster {
+public class Roster implements Serializable {
     private Driver driver;
     private List<RosterDetails> details;
 

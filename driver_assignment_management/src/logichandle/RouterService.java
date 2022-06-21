@@ -1,8 +1,10 @@
 package logichandle;
 
 import entity.Router;
+import file.FileUtil;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,6 +31,7 @@ public class RouterService {
             Router router = new Router();
             router.inputInfo();
             ROUTER.add(router);
+            FileUtil.writeFile(Collections.singletonList(ROUTER), "driver_assignment_management/src/file/router.dat");
         }
         System.out.println("Thêm thành công");
     }

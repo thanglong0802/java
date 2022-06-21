@@ -1,6 +1,7 @@
 package logichandle;
 
 import entity.*;
+import file.FileUtil;
 import main.Main;
 
 import java.util.*;
@@ -83,6 +84,7 @@ public class RosterService {
         r1.setDriver(DriverService.searchDriverByID(driverID));
         r1.setDetails(list);
         Main.ROSTER.add(r1);
+        FileUtil.writeFile(Collections.singletonList(Main.ROSTER), "driver_assignment_management/src/file/roster.dat");
     }
 
     public static boolean checkData() {

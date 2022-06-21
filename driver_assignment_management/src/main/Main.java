@@ -1,6 +1,5 @@
 package main;
 
-import entity.Driver;
 import entity.ESort;
 import entity.Roster;
 import logichandle.DriverService;
