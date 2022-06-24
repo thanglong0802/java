@@ -1,13 +1,104 @@
-.container {
+body {
+    font-size: 15px;
+}
+
+/* @media (max-width: 992px) {
+    body p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    body p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    body p {
+        font-size: 15px;
+    }
+} */
+
+.menu .ul-menu li {
+    padding: 15px 25px 15px 0px;
+    display: inline-block;
+}
+
+.menu .ul-menu li a {
+    color: black;
+    font-style: normal;
+}
+
+.ul-menu .ul-menu2 a {
+    padding-left: 820px;
+}
+
+.content {
     z-index: 2;
     position: relative;
-    /* background: #000000; */
 }
-.ul-menu li {
-display: inline-block;
-font-size: 15px;
-}
-.ul-menu li:hover a{
-    color: green;
 
+.content .block-1 img {
+    max-width: 100%;
+    /* padding-left: 120px; */
+}
+
+.content .block-2 h2 {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    color: white;
+    font-size: 55px;
+}
+
+.content .block-2 p {
+    position: absolute;
+    top: 160px;
+    left: 78px;
+    color: white;
+    font-size: 24px;
+}
+
+.content .container {
+    background-color: wheat;
+}
+
+.content .container .item-1 {
+    margin-top: -4px;
+    padding-left: 40px;
+    padding-top: 1px;
+}
+
+.content .container .item-1 p {
+    margin-top: -15px;
+}
+
+/* .content .container .tb-img {
+    margin: 40px;
+} */
+
+.content .container .tb-img .img-1 img {
+    margin: 30px;
+}
+
+.content .container .tb-img .img-2 img {
+    margin: 20px;
+}
+
+.content .container .tb-img .img-3 img {
+    margin: 0px 0px -30px 30px;
+}
+
+.footer ul li {
+    padding-left: 15px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer ul li a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
 }
