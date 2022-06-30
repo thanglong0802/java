@@ -32,7 +32,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="D:/download/download_16082021/ojdbc8.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908046" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
@@ -169,6 +169,9 @@
       <workItem from="1655958221309" duration="33000" />
       <workItem from="1655966336723" duration="150000" />
       <workItem from="1656301620537" duration="6869000" />
+      <workItem from="1656394076913" duration="105000" />
+      <workItem from="1656471837794" duration="1797000" />
+      <workItem from="1656486529459" duration="1797000" />
     </task>
     <servers />
   </component>

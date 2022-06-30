@@ -27,23 +27,4 @@ public class ConnectJDBC {
         }
     }
 
-    public static void main(String[] args) throws SQLException {
-        Connection conn = ConnectJDBC.getConnection();
-        // Bước 2: tạo cú pháp xử lý câu lệnh
-        Statement statement = conn.createStatement();
-
-        String selectSql = "SELECT * FROM DRIVER";
-
-        ResultSet result = statement.executeQuery(selectSql);
-        while (result != null && result.next()) {
-            System.out.println("ID = " + result.getLong(1));
-            System.out.println("Họ tên = " + result.getString(2));
-            System.out.println("Địa chỉ = " + result.getString(3));
-            System.out.println("Số điện thoại = " + result.getLong(4));
-            System.out.println("Trình độ = " + result.getString(5));
-            System.out.println("==========================");
-            break;
-        }
-    }
-
 }
