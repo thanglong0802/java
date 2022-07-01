@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c3319b-e18d-497a-9d0e-6a5b7c955ee4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/driver_assignment_management_jdbc/src/connection/OracleJDBCConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver_assignment_management_jdbc/src/connection/ConnectJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/driver_assignment_management_jdbc/src/connection/JDBCConnection.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +33,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="D:/download/download_16082021/ojdbc8.jar!/" />
+    <property name="last_opened_file_path" value="D:/Download/exe/ojdbc8.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908046" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
@@ -54,22 +57,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectJDBC">
-    <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringhandling.Bai7" />
-      <module name="day4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="connection.ConnectJDBC" />
+  <component name="RunManager" selected="Application.JDBCConnection">
+    <configuration name="JDBCConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connection.JDBCConnection" />
       <module name="driver_assignment_management_jdbc" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OracleJDBCConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connection.OracleJDBCConnection" />
+      <module name="driver_assignment_management_jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConnectJDBC" />
+        <item itemvalue="Application.JDBCConnection" />
+        <item itemvalue="Application.OracleJDBCConnection" />
+        <item itemvalue="Application.OracleJDBCConnection" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Bai7" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +175,7 @@
       <workItem from="1656394076913" duration="105000" />
       <workItem from="1656471837794" duration="1797000" />
       <workItem from="1656486529459" duration="1797000" />
+      <workItem from="1656643613980" duration="4460000" />
     </task>
     <servers />
   </component>
